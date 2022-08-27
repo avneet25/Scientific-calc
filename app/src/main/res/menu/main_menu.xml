@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group>
+
+
+        <item
+            android:id="@+id/converter"
+            android:title="@string/converter">
+
+            <menu>
+                <item
+                    android:id="@+id/currency"
+                    android:icon="@drawable/weight"
+                    android:title="@string/currency" />
+                <item
+                    android:id="@+id/volume"
+                    android:icon="@drawable/weight"
+                    android:title="@string/volume" />
+                <item
+                    android:id="@+id/length"
+                    android:icon="@drawable/weight"
+                    android:title="@string/length" />
+                <item
+                    android:id="@+id/weight"
+                    android:icon="@drawable/weight"
+                    android:title="@string/weight" />
+                <item
+                    android:id="@+id/temperature"
+                    android:icon="@drawable/weight"
+                    android:title="@string/temperature" />
+                <item
+                    android:id="@+id/energy"
+                    android:icon="@drawable/weight"
+                    android:title="@string/energy" />
+
+            </menu>
+        </item>
+
+
+    </group>
+</menu>

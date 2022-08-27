@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.knotworking.numbers.counter.CounterItem" />
+
+        <variable
+            name="actions"
+            type="com.knotworking.numbers.counter.CounterActions" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_item_margin"
+        android:layout_marginRight="@dimen/card_item_margin"
+        android:layout_marginTop="@dimen/card_item_margin"
+        app:cardElevation="@dimen/card_elevation">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{view -> actions.incrementCount(item.id)}"
+            android:onLongClick="@{view -> actions.itemLongClick(item)}"
+            >
+
+            <TextView
+                android:id="@+id/counter_item_decrement"
+                android:layout_width="32dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:onClick="@{view -> actions.decrementCount(item.id)}"
+                android:text="-"
+                android:textSize="32sp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:foreground="?attr/selectableItemBackground"/>
+
+            <FrameLayout
+                android:layout_width="1.5dp"
+                android:layout_height="0dp"
+                android:background="@color/lightGrey"
+                app:layout_constraintLeft_toRightOf="@id/counter_item_decrement"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/counter_item_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@{item.name}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/counter_item_decrement"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/counter_item_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|bottom"
+                android:text="@{Integer.toString(item.count)}"
+                android:textSize="38sp"
+                app:layout_constraintBottom_toTopOf="@id/counter_item_title"
+                app:layout_constraintLeft_toRightOf="@id/counter_item_decrement"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="12" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</layout>

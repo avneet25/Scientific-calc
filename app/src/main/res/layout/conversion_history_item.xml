@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.knotworking.numbers.converter.history.HistoryItemViewModel" />
+
+        <variable
+            name="actions"
+            type="com.knotworking.numbers.converter.history.HistoryItemActions" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_item_margin"
+        android:layout_marginRight="@dimen/card_item_margin"
+        android:layout_marginTop="@dimen/card_item_margin"
+        app:cardElevation="@dimen/card_elevation"
+        android:onClick="@{view -> actions.onItemClick(viewModel.item)}"
+        android:onLongClick="@{view -> actions.onItemDeleteClick(viewModel.item)}"
+        android:foreground="?attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="6dp">
+
+            <TextView
+                android:id="@+id/history_item_input_textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:text="@{viewModel.getInputDisplayText(context)}"
+                tools:text="1000g" />
+
+            <TextView
+                android:id="@+id/equals"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:text="="
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/history_item_output_textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text="@{viewModel.getOutputDisplayText(context)}"
+                tools:text="1kg" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

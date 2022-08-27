@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Labels -->
+    <string name="app_name">Unit Converter</string>
+    <string name="first_tab">Stuff</string>
+    <string name="second_tab"></string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_delete">Delete</string>
+    <string name="new_item_dialog_hint">Item name</string>
+    <string name="new_item_dialog_title">New Item</string>
+    <string name="new_item_dialog_positive_button">Create</string>
+    <string name="edit_item_dialog_title">Edit Item</string>
+    <string name="edit_item_dialog_positive_button">Save</string>
+    <string name="save_button">Save</string>
+
+    <!-- Messages -->
+    <string name="empty_exchange_rates">Exchange rates have not been downloaded</string>
+
+    <string-array name="type_array">
+        <item>Weight</item>
+        <item>Temperature</item>
+        <item>Length</item>
+        <item>Volumn</item>
+        <item>Power</item>
+        <item>Currency</item>
+    </string-array>
+
+    <string-array name="mass_array">
+        <item>kg</item>
+        <item>g</item>
+        <item>lbs</item>
+        <item>oz</item>
+    </string-array>
+
+    <string-array name="temperature_array">
+        <item>°C</item>
+        <item>°F</item>
+        <item>°K</item>
+    </string-array>
+
+    <string-array name="distance_array">
+        <item>miles</item>
+        <item>feet</item>
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+    </string-array>
+
+    <string-array name="volumn_array">
+        <item>m3</item>
+        <item>cm3</item>
+        <item>mm3</item>
+        <item>L</item>
+        <item>mL</item>
+    </string-array>
+
+    <string-array name="power_array">
+        <item>W</item>
+        <item>kW</item>
+        <item>MW</item>
+        <item>GW</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>EUR(€)</item>
+        <item>GBP(£)</item>
+        <item>USD($)</item>
+        <item>CAD($)</item>
+        <item>INR(₹)</item>
+        <item>HKD($)</item>
+        <item>NZD($)</item>
+        <item>KPW(₩)</item>
+        <item>CNY(¥)</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="clear">C</string>
+    <string name="backspace">⌫</string>
+    <string name="divide">÷</string>
+    <string name="sqrt">√</string>
+    <string name="square">x²</string>
+    <string name="posneg">±</string>
+    <string name="openBracket">(</string>
+    <string name="closeBracket">)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="calculator">Calculator</string>
+    <string name="converter">Converter</string>
+    <string name="currency">Currency</string>
+    <string name="volume">Volume</string>
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="temperature">Temperature</string>
+    <string name="energy">Energy</string>
+
+</resources>

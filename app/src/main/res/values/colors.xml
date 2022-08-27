@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B2A2A</color>
+    <color name="colorPrimaryDark">#2B2A2A</color>
+    <color name="colorPrimaryOffWhite">#f2f2f2</color>
+    <color name="colorAccent">#ffd740</color>
+    <color name="weightColor">#15DB18</color>
+    <color name="lengthColor">#FF0000</color>
+    <color name="volmunColor">#F34F4F</color>
+    <color name="tempColor">#2E6EB9</color>
+    <color name="currencyColor">#9C27B0</color>
+    <color name="powerColor">#4A50B9</color>
+    <color name="lightGrey">#ececec</color>
+    <color name="liteBlack">#404040</color>
+    <color name="textColor">#ffffff</color>
+
+</resources>
