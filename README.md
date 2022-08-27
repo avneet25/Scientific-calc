@@ -1,5 +1,3 @@
-![final caput](https://user-images.githubusercontent.com/70349256/115798646-b9acb680-a3a4-11eb-9b65-94a675f61030.jpg)
-
 # 6-in-1 Calculator
 
 
@@ -46,8 +44,7 @@ A default screen with the calculator appears. A side window with all options pop
 Supported with the latest currency market values, you can convert and view between nine major currencies of the world; i.e. 81 different conversion rates. 
 Choose the currency you want to convert, from the drop down-menu on the left-hand side to the currency that you select from the drop-down menu on the right-hand side of the screen. The conversion is automated to reflect on the screen with no further instruction or assistance from the user.
 
-![currency](https://user-images.githubusercontent.com/70349256/115792221-e1e1e880-a397-11eb-986e-52f87ca71c34.jpeg)  - ![include](https://user-images.githubusercontent.com/70349256/115806827-7b6bc300-a3b5-11eb-9b8d-88a21d008362.JPG)
-
+![currency](https://user-images.githubusercontent.com/70349256/115792221-e1e1e880-a397-11eb-986e-52f87ca71c34.jpeg)
 
 
 
@@ -64,9 +61,7 @@ Power units available for conversion are Watts, Kilowatts, Megawatts and Gigawat
 ### Calculator
 No application built for mathematical assitance could be complete without a calculator. The calculator in the 6-in-1 application provides a range of functions such as: basic mathematical opeerations, squared, multiplied, bodmas, negative numbers and decimal numbers.
 
-![output-onlinegiftools](https://user-images.githubusercontent.com/70349256/115795665-53249a00-a39e-11eb-8915-f00c1881ea58.gif)  ![match](https://user-images.githubusercontent.com/70349256/115807808-4b252400-a3b7-11eb-9321-f73a450115c8.JPG)
-
-
+![output-onlinegiftools](https://user-images.githubusercontent.com/70349256/115795665-53249a00-a39e-11eb-8915-f00c1881ea58.gif)
 
 ## Manifest files
 The manifest file is a very important component; it describes essential information about an application to the Android build tools and operating system. <br/>
