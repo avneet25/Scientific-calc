@@ -24,15 +24,6 @@ Being a student, one often comes across calculations that invlove converting a v
 - [FAQs](#FAQ)
 
 
-##  **Installation instructions** 
-
-This application is built for android mobile phones. You can download and install it via Google PlayStore. Each app supports specific Android version and newer versions. If the user is unsure, they can check with Google PlayStore to find out if the application is compatible with their device. If it is (compatible), the PlayStore will proceed with installation. Otherwise, to know android version compatibility for the 6-in-1 calculator the user can refer to the following Giphy: 
-
-![final gif](https://user-images.githubusercontent.com/70349256/115795213-7f8be680-a39d-11eb-955d-517c6c28e66c.gif)
-
-
-
-
 ### **App description**
 _The application is built upon Model-View-Control Architecture. Here is a description about what to expect after opening the application on your android device
 A default screen with the calculator appears. A side window with all options pops open on clicking the hamburger icon on top-left_
@@ -96,8 +87,8 @@ Usage is provided under the [MIT License](https://opensource.org/licenses/MIT) L
 
 ## Contact Information
 This application was built as an independent project for the course COMP-2430 For developer contact you can reach out through the email below. <br/>
-Praneeth R. Jakkala : pjakkala@lakeheadu.ca <br/>
-Avneet Kaur : akaur23@lakeheadu.ca
+Praneeth R. Jakkala : <br/>
+Avneet Kaur : 
 
 
 ## TroubleShooting tips
