@@ -93,5 +93,5 @@ Does the application require internet?
 For using calculator, weight, temperature, power, volume and length conversions an internet connection is not required. You can use the currency convertor offline, but the conversion rates will be according to the last stored update. Therefore, it is advised to use an internet connection to get the most accurate rates.
 
 How often is the currency rate updated?
-The website from which the currency data is collected is [website]. All currencies are updated at the end of each day.
+All currencies are updated at the end of each day.
 
