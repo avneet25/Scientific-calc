@@ -2,7 +2,7 @@
 
 
 
-Being a student, one often comes across calculations that invlove converting a value from one standard unit to the other. The 6-in-1 calculator app is built essentially for this purpose. It provides major mathematical/computational convertors used frequently, all packed in one application, to save time as well as provide easy access to the user.
+Being a student, one often comes across calculations that invlove converting a value from one standard unit to the other. The 6-in-1 calculator app is built essentially for this purpose. It provides major mathematical/computational convertors used frequently, all packed in one application, to save time!
 
 ## 🚩 Table of Contents
 - [Installation instructions](#Installation-instructions)
@@ -82,26 +82,11 @@ ___
             }
 ```
 
-## 📜 License
-Usage is provided under the [MIT License](https://opensource.org/licenses/MIT) License. See license for the full details
-
 ## Contact Information
-This application was built as an independent project for the course COMP-2430 For developer contact you can reach out through the email below. <br/>
-Praneeth R. Jakkala : <br/>
-Avneet Kaur : 
-
-
-## TroubleShooting tips
-![troubleshoot](https://user-images.githubusercontent.com/82283086/114631675-10bad900-9c8b-11eb-9b09-056f03349d47.png)
-
-If you encounter any issues with the application, we suggest reinstalling the application. If the problem persists, (or if there is a bug you want to report) since the application is at its earlier development stages, kindly send us the query at any one email addresses provided above.
+This application was built as an independent project for the course COMP-2430
 
 ## Credits and acknowledgements
 Dr Trevor Tomesh - Mentoring and guidance through whole project.
-
-
-## Donations
-This is a free, open-source software.
 
 ## FAQ
 Does the application require internet?
